@@ -1,5 +1,5 @@
 import { useState, createContext, useEffect } from "react";
-import "./styles.css";
+import "./App.css";
 import axios from "axios";
 import { Routes, Route } from "react-router-dom";
 import DataUsers from "./components/mainpage/DataUsers";
