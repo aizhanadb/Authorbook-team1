@@ -61,6 +61,7 @@ const AllBooks = () => {
             onPageChange={handlePageClick}
             containerClassName="pagination"
             activeClassName="active"
+            paginationClassName = "pagination"
           />
         </header>
         <Items currentItems={currentItems} />
